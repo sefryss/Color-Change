@@ -8,9 +8,11 @@ class MainPage extends StatefulWidget {
 }
 
 class _MainPageState extends State<MainPage> {
+  //membuat variabel yang dibutuhkan dan membuat list color yang digunakan
   int _warnaAwalIndex = 0;
   List<Color> _warnaTersedia = [Colors.blue, Colors.yellow, Colors.green];
 
+  //metode untuk ganti warna
   void _gantiWarna() {
     setState(() {
       _warnaAwalIndex = (_warnaAwalIndex + 1) % _warnaTersedia.length;
@@ -19,7 +21,9 @@ class _MainPageState extends State<MainPage> {
 
   @override
   Widget build(BuildContext context) {
+    //menginisialisasikan untuk warna yang pertama kali muncul
     Color _warnaAwal = _warnaTersedia[_warnaAwalIndex];
+
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.deepPurple,
@@ -27,15 +31,12 @@ class _MainPageState extends State<MainPage> {
       ),
       body: Center(
           child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
+        mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
           Container(
             width: 200,
             height: 200,
             color: _warnaAwal,
-          ),
-          SizedBox(
-            height: 250,
           ),
           SizedBox(
             width: 150.0,
