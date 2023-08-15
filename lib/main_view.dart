@@ -10,7 +10,7 @@ class MainPage extends StatefulWidget {
 class _MainPageState extends State<MainPage> {
   //membuat variabel yang dibutuhkan dan membuat list color yang digunakan
   int _warnaAwalIndex = 0;
-  List<Color> _warnaTersedia = [Colors.blue, Colors.yellow, Colors.green];
+  final List<Color> _warnaTersedia = [Colors.blue, Colors.yellow, Colors.green];
 
   //metode untuk ganti warna
   void _gantiWarna() {
