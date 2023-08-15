@@ -1,16 +1,12 @@
-# latihan_warna
+# Color-Change
 
-A new Flutter project.
+HASIL :
 
-## Getting Started
+<img width="199" alt="ss latihan_warna 2" src="https://github.com/sefryss/Color-Change/assets/109064862/61c86b9e-01d0-46af-8227-2ca6ff601b5d">
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+<img width="200" alt="ss latihan_warna 1" src="https://github.com/sefryss/Color-Change/assets/109064862/f8e6aae4-3e17-4a83-aeed-716ddd35fae3">
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img width="199" alt="ss latihan_warna 3" src="https://github.com/sefryss/Color-Change/assets/109064862/dd615c1e-c06e-4d4e-9846-9c977298e7a9">
+
